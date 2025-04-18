@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Mark Sheet</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <h2>Students  Entry Form</h2>
+
+    <form id="userForm">
+      <input type="number" id="roll-no" placeholder="Roll Number" required/>
+      <input type="text" id="std-name" placeholder="Student Name" required/>
+      <input type="number" id="tamil-mark" placeholder="Tamil Mark" required/>
+      <input type="number" id="english-mark" placeholder="English Mark" required/>
+      <input type="number" id="maths-mark" placeholder="Maths Mark" required/>
+      <input type="number" id="science-mark" placeholder="Science Mark" required/>
+      <button class="btn-save" type="submit">Save</button>
+    </form>
+    <h2>Students Mark Sheet</h2>
+    <table>
+        <thead>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Status</th>
+            <th>Grade</th>
+            <th>Total</th>
+            <th>%</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="student-body">
+        </tbody>
+       
+    </table>
+</body>
+<script src="./mark.js"></script>
+</html>
