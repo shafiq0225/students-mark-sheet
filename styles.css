@@ -106,7 +106,7 @@ td button {
     }
   }
   /* For mobile screens */
-  @media (max-width: 768px) {
+  @media (max-width: 150px) {
     table, thead, tbody, th, td, tr {
       display: block;
     }
